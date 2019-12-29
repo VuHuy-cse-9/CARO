@@ -1,0 +1,7 @@
+﻿  AI.cpp
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.h(11,28): error C2091: function returns function
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(7,32): error C2091: function returns function
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(13,1): error C2059: syntax error: '}'
+  Map.cpp
+  Node.cpp
+  Generating Code...
