@@ -1,7 +1,14 @@
 ﻿  AI.cpp
-D:\Minh Huy\CARO\CARO\CARO\CARO\AI.h(11,28): error C2091: function returns function
-D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(7,32): error C2091: function returns function
-D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(13,1): error C2059: syntax error: '}'
-  Map.cpp
-  Node.cpp
-  Generating Code...
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(3,44): error C2440: 'initializing': cannot convert from 'Map *' to 'Map *&'
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(3,44): error C2439: 'AI::map': member could not be initialized
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.h(10): message : see declaration of 'AI::map'
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(9,6): error C3867: 'Map::getMap': non-standard syntax; use '&' to create a pointer to member
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(9,6): error C2109: subscript requires array or pointer type
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(17,6): error C3867: 'Map::getMap': non-standard syntax; use '&' to create a pointer to member
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(17,6): error C2109: subscript requires array or pointer type
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(24,5): error C3867: 'Map::getMap': non-standard syntax; use '&' to create a pointer to member
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(24,5): error C2109: subscript requires array or pointer type
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(27,5): error C3867: 'Map::getMap': non-standard syntax; use '&' to create a pointer to member
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(27,5): error C2109: subscript requires array or pointer type
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(50,8): error C3867: 'Map::getCheckNode': non-standard syntax; use '&' to create a pointer to member
+D:\Minh Huy\CARO\CARO\CARO\CARO\AI.cpp(50,8): error C2109: subscript requires array or pointer type

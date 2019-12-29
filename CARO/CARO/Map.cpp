@@ -7,11 +7,13 @@ Map::Map(int _length = 1, int _width = 1) : length(_length), width(_width),
 
 void Map::creatMap() {
 	if (this->matrix != nullptr) return;
-	this->matrix = new int* [this->length + 1]{};
-	this->checkNode = new short* [this->length + 1]{};
+	this->matrix = new char* [this->length + 1]{};
+	this->checkNode = new bool* [this->length + 1]{};
 	for (int i = 1; i <= length; ++i) {
-		this->matrix[i] = new int[this->width]{};
-		this->checkNode[i] = new short[this->width]{};
+		this->matrix[i] = new char[this->width]{};
+		this->checkNode[i] = new bool[this->width]{};
+		for (int j = 1; j <= width; ++j)
+			this->checkNode[i][j] = '0';
 	}
 }
 
@@ -25,11 +27,11 @@ Map::~Map() {
 	delete[] this->matrix;
 }
 
-int** Map::getMap() {
+char**& Map::getMap() {
 	return this->matrix;
 }
 
-short** Map::getCheckNode() {
+bool** Map::getCheckNode() {
 	return checkNode;
 }
 
